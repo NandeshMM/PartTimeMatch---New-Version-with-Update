@@ -24,6 +24,7 @@ export const login = (req,res)=>{
     const {username,password} = req.body;
     try{
     //Check if the user exists
+    //Test
     //Check it the password is correct
     //Generate cookie token and send to the user
     }
