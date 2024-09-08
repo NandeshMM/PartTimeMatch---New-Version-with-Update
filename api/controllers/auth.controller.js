@@ -24,7 +24,6 @@ export const login = (req,res)=>{
     const {username,password} = req.body;
     try{
     //Check if the user exists
-    const user = await prisma.user()
     //Check it the password is correct
     //Generate cookie token and send to the user
     }
